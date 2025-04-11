@@ -19,7 +19,7 @@ This Go library provides a straightforward function to check if a given string m
 To use this library in your Go project, simply use `go get`:
 
 ```bash
-go get [github.com/maeck70/regex-validator](https://github.com/maeck70/regex-validator)
+go get github.com/maeck70/regex-validator
 ````
 
 ## Usage
@@ -27,7 +27,7 @@ go get [github.com/maeck70/regex-validator](https://github.com/maeck70/regex-val
 Import the `regex-validator` package into your Go code:
 
 ```go
-import "[github.com/maeck70/regex-validator](https://github.com/maeck70/regex-validator)"
+import github.com/maeck70/regex
 ```
 
 Then, use the `Validate` function:
@@ -37,7 +37,7 @@ package main
 
 import (
 	"fmt"
-	"[github.com/maeck70/regex-validator](https://github.com/maeck70/regex-validator)"
+	"github.com/maeck70/regex-validator"
 )
 
 func main() {
