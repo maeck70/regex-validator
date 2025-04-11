@@ -1,4 +1,3 @@
-````markdown
 # regex-validator
 
 A simple Go library for validating strings against regular expressions.
@@ -81,5 +80,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://www.go
 
 **Note:** This README.md is generated based on the provided Go file path. If there are other files or functionalities in the repository, you might want to update this README to reflect the complete project structure and features. For example, if there's a command-line interface, you should add a section explaining its usage.
 
-```
 ```
