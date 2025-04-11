@@ -47,6 +47,13 @@ func Load(fileName string) {
 	}
 }
 
+// IsLoaded checks if a regex validator is loaded
+// Returns true if the validator is loaded, false otherwise
+func IsLoaded(rekey string) bool {
+	_, ok := compiledRegexs[rekey]
+	return ok
+}
+
 var compiledRegexs map[string]*regexp.Regexp
 
 type validator_t struct {
